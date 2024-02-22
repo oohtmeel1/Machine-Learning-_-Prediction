@@ -35,3 +35,27 @@ Please see :https://www.eia.gov/state/seds/CDF/Codes_and_Descriptions.xlsx for a
 `StateCode` Two letter state abbreviation \
 `Year` YYYY-MM-DD \
 `Data` Numerical - associated with MSN 
+
+
+Models tested so far:
+
+Linear regression Model
+Support Vector Regression Machine
+
+
+Model Results So far:
+
+The linear model performed very well. With a prediction accuracy of 100%. But this problem was ideal for linear modeling, being a combination of continuous variables. 
+
+The `MAE` was 0.03267136765242417\
+The `MSE` was 0.003015192149111796\
+The `Explained variance` was 0.999999999844917\
+The $ R^2 $ was 0.9999999998350794
+
+
+The SVR performed very well. With a prediction accuracy of 100%.
+
+The `MAE` was 0.5021485094357804\
+The `MSE` was 0.6832135549229309\
+The `Explained variance` was 0.9999999633196209\
+The $ R^2 $ was 0.999999962630569
