@@ -45,7 +45,8 @@ Support Vector Regression Machine
 
 Model Results So far:
 
-The linear model performed very well. With a prediction accuracy of 100%. But this problem was ideal for linear modeling, being a combination of continuous variables. 
+The linear model performed very well. With a prediction accuracy of 100%. 
+
 
 The `MAE` was 0.03267136765242417\
 The `MSE` was 0.003015192149111796\
