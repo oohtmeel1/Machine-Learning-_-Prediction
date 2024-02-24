@@ -39,10 +39,10 @@ Please see :https://www.eia.gov/state/seds/CDF/Codes_and_Descriptions.xlsx for a
 
 Models tested so far:
 
-* Linear regression Model \
-* Support Vector Regression Machine \
-* K Neighbors regressor\
-* Neural Network model\
+* Linear regression Model 
+* Support Vector Regression Machine 
+* K Neighbors regressor
+* Neural Network model
 * Stochastic Gradient Descent
 
 Model Results So far:
