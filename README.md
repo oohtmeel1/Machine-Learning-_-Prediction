@@ -39,9 +39,11 @@ Please see :https://www.eia.gov/state/seds/CDF/Codes_and_Descriptions.xlsx for a
 
 Models tested so far:
 
-Linear regression Model
-Support Vector Regression Machine
-
+* Linear regression Model 
+* Support Vector Regression Machine 
+* K Neighbors regressor
+* Neural Network model
+* Stochastic Gradient Descent
 
 Model Results So far:
 
@@ -60,3 +62,25 @@ The `MAE` was 0.5021485094357804\
 The `MSE` was 0.6832135549229309\
 The `Explained variance` was 0.9999999633196209\
 The $ R^2 $ was 0.999999962630569
+
+
+
+The SGDR performed very well. With a prediction accuracy of 100%.
+
+The `MAE` was 0.9834673843854801\
+The `MSE` was 1.5266552927792496\
+The `Explained variance` was 0.9999999450342941\
+The $ R^2 $ was 0.9999999164972077\
+
+The k_neighbors performed very well. With a prediction accuracy of 100%.
+
+The `MAE` was 0.9834673843854801\
+The `MSE` was 1.5266552927792496\
+The `Explained variance` was 0.9999999450342941\
+The $ R^2 $ was 0.9999999164972077\
+
+The Neural Network Model performed very well. With a prediction accuracy of 100%.\
+The `MAE` was 0.032168487841461764\
+The `MSE` was 0.0030038938705200698\
+The `Explained variance` was 0.9999999998453984\
+The $ R^2 $ was 0.9999999998356973
