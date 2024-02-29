@@ -1,4 +1,8 @@
 ## Background
+The purpose of this project was to use Machine learning models to cast a prediction for the future spending in the residential sector on electricity for the year 2021.
+Their results will then be compared and a report will be drafted.
+
+
 EIA's State Energy Data System (SEDS) is a comprehensive data set that consists of annual time series estimates of state-level energy use by major economic sectors, energy production and and State-level energy price and expenditure data. The system provides data back from 1960. Data are presented in physical units, BTUs, and dollars. While some SEDS data series come directly from surveys conducted by EIA, many are estimated using other available information. These estimations are necessary for the compilation of "total energy" estimates.
 
 Useful Links:
@@ -80,6 +84,14 @@ The `Explained variance` was 0.9999999450342941\
 The $ R^2 $ was 0.9999999164972077
 
 The Neural Network Model performed very well. With a prediction accuracy of 100%.\
+The `MAE` was 0.032168487841461764\
+The `MSE` was 0.0030038938705200698\
+The `Explained variance` was 0.9999999998453984\
+The $ R^2 $ was 0.9999999998356973
+
+
+The Neural Network Model performed very well. With a prediction accuracy of 100%.
+
 The `MAE` was 0.032168487841461764\
 The `MSE` was 0.0030038938705200698\
 The `Explained variance` was 0.9999999998453984\
